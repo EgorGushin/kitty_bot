@@ -6,7 +6,6 @@ from telegram.ext import CommandHandler, Updater, Filters, MessageHandler
 from telegram import ReplyKeyboardMarkup
 import requests
 
-
 load_dotenv()
 token_env = os.getenv('TOKEN')
 
